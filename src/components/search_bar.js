@@ -12,7 +12,7 @@ class SearchBar extends Component {
 	// Every class must have a render method
 	render() {
 		return (
-			<div>
+			<div className="search-bar">
 				<input value={ this.state.term } onChange={ this.onInputChange } />
 			</div>
 		)
